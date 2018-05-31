@@ -1,0 +1,16 @@
+.active {
+    border-left: 2px solid blue;
+}
+
+.nav-item {
+    padding-left: 5px;
+    margin: 3px;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+#appcontent {
+    padding-top: 20px;
+}
