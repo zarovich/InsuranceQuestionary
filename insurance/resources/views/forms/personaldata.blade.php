@@ -29,7 +29,8 @@
             <li class="nav-item">{{ __('Finish') }}</li>
     </div>
     <div class="col">
-        <form action="#" method="post">            
+    <form action="{{ URL::action('InsuranceWizard@personalDataStore') }}" method="post">
+        @csrf
             <div class="card">
                 <div class="card-header">
                     {{ __('Personal data') }}

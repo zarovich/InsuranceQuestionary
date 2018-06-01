@@ -16,3 +16,12 @@ Route::get('/', function () {
 });
 
 Route::get('personalData', 'InsuranceWizard@personalDataForm');
+Route::get('detailedInfo/{id}', 'InsuranceWizard@detailedInfoForm');
+Route::get('driverDetails/{id}', 'InsuranceWizard@driverDetailsForm');
+Route::get('addCarForm/{id}', 'InsuranceWizard@addCarForm');
+Route::get('endForm/{id}', 'InsuranceWizard@endForm');
+
+Route::post('personalDataStore', 'InsuranceWizard@personalDataStore');
+Route::post('detailedInfoStore', 'InsuranceWizard@detailedInfoStore');
+Route::post('driverDetailsStore', 'InsuranceWizard@driverDetailsStore');
+Route::post('addCarStore', 'InsuranceWizard@addCarStore');

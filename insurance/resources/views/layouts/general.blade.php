@@ -24,7 +24,7 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navForm">
-            <a class="navbar-brand" href="#">Brand logo</a>
+            <a class="navbar-brand" href="#"><img src="{{ asset('images/InsuranceQuoteLab.png') }}" height="36px"/></a>
         </nav>
         <div id="appcontent" class="container">
         @yield('content')
